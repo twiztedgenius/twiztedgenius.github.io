@@ -1,0 +1,41 @@
+﻿{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v1.2/manifest/MicrosoftTeams.schema.json", 
+  "manifestVersion": "1.3",
+  "version": "1.0.0",
+  "id": "296a4cd3-c2fd-489b-a7a9-c3f2ab930008",
+  "packageName": "SPTN-GroupCalendar.spartannash.bhtest",
+  "developer": {
+    "name": "bill.hughes@spartannash.com",
+    "websiteUrl": "https://twiztedgenius.github.io/SPTN-GroupCalendar/app/todo.html",
+    "privacyUrl": "https://twiztedgenius.github.io/SPTN-GroupCalendar/app/todo.html",
+    "termsOfUseUrl": "https://twiztedgenius.github.io/SPTN-GroupCalendar/app/todo.html"
+  },
+  "name": {
+    "short": "SPTN Group Calendar",
+    "full": "SpartanNash Group Calendar"
+  },
+  "description": {
+    "short": "Tab for displaying an Group Calendar in Javascript Calendar Control",
+    "full": "Tab for displaying an Group Calendar in Javascript Calendar Control"
+  },
+   "icons": {
+    "outline": "Outline32.png", 
+    "color": "Colour192.png" 
+  },
+  "accentColor": "#333333",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://twiztedgenius.github.io/SPTN-GroupCalendar/app/config.html",
+      "canUpdateConfiguration": true,
+      "scopes": [ "team" ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "twiztedgenius.github.io"
+
+  ]
+}
